@@ -1,0 +1,35 @@
+   0.000 ID= 1      Ask
+   0.000 ID= 2      Ask
+   0.000 ID= 3      Ask
+   0.000 ID= 5      Ask
+   0.000 ID= 4      Ask
+   5.294 ID= 0 Q= 1 Work 222
+
+   5.294 ID= 1 Q= 0 Receive   222
+   5.456 ID= 1      Complete  222
+   5.456 ID= 1      Ask
+   8.164 ID= 0 Q= 1 Work 333
+
+   8.164 ID= 3 Q= 0 Receive   333
+   8.398 ID= 3      Complete  333
+   8.398 ID= 3      Ask
+  12.830 ID= 0    Sleep 33
+
+  16.444 ID= 0 Q= 1 Work 222
+
+  16.444 ID= 4 Q= 0 Receive   222
+  16.606 ID= 4      Complete  222
+  16.606 ID= 4      Ask
+  19.920 ID= 0      End
+Summary:
+    Work         7
+    Ask          8
+    Receive      3
+    Complete     3
+    Sleep        1
+    Thread  1    1
+    Thread  2    0
+    Thread  3    1
+    Thread  4    1
+    Thread  5    0
+Transactions per second: 0.15
