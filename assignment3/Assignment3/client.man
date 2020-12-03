@@ -1,0 +1,16 @@
+.TH client 1 "20 Nov 2020"
+.SH NAME
+Client
+.SH SYNOPSIS
+client [PORT NUMBER] [IP ADDRESS]
+.SH ARGUMENTS
+The client has two arguements:
+  1. port number, int, 5000 < port number < 64000
+  2. IP address, int, for instance 127.0.0.1
+
+.SH DESCRIPTION
+A client program read in "task" and "sleep" and communicate with server program.
+
+.SH "SEE ALSO"
+server(1)
+.SH BUGS

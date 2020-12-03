@@ -1,0 +1,15 @@
+.TH server 1 "20 Nov 2020"
+.SH NAME
+Server
+.SH SYNOPSIS
+server [PORT NUMBER]
+.SH ARGUMENTS
+The server has one arguements:
+  1. port number, int, 5000 < port number < 64000
+
+.SH DESCRIPTION
+A server program receive task from clients and give respond when the task is finished.
+
+.SH "SEE ALSO"
+client(1)
+.SH BUGS
